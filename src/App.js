@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Alumni from "./pages/Alumni";
 import Team from "./pages/Team";
 import Projects from "./pages/Projects";
+import Members from "./pages/Members";
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
       <Route path="/alumni" component={Alumni} />
       <Route path="/team" component={Team} />
       <Route path="/projects" component={Projects} />
+      <Route path="/members" component = {Members} />
     </Router>
   );
 }
